@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/banner.svg" width="880" alt="CVE-2026-123270: Redpanda Connect unauthenticated streams-mode RCE"></p>
 
-Private research copy of the coordinated-disclosure advisory and proof-of-concept exploit for an unauthenticated remote code execution vulnerability in the Redpanda Connect (formerly Benthos) streams-mode management API.
+Advisory and proof-of-concept exploit for CVE-2026-123270, an unauthenticated remote code execution vulnerability in the Redpanda Connect (formerly Benthos) streams-mode management API.
 
 Coordinated through CERT/CC; tracked as CVE-2026-123270.
 
@@ -75,9 +75,9 @@ docker build \
 
 See `docker/README.md` for details.
 
-## Handling
+## Note
 
-This advisory documents a vulnerability under coordinated disclosure. Public disclosure is scheduled for the 2026-11-09 embargo date, when CERT/CC plans to publish CVE-2026-123270 at approximately 17:00 UTC, coordinated with CISA/CERT/CC and subject to the reporter's approval. Treat it as sensitive and do not redistribute it outside the coordinated channel before that date. The captured proof-of-execution output and reporter contact email have been redacted from this copy.
+CVE-2026-123270 was published on 2026-11-09 and fixed by the vendor. The captured proof-of-execution output and the reporter's contact email are redacted from this public copy.
 
 ## Author
 
