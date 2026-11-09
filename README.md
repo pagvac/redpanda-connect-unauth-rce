@@ -1,8 +1,8 @@
-# Redpanda Connect: Unauthenticated Streams-Mode RCE
+# Redpanda Connect: Unauthenticated Streams-Mode RCE (CVE-2026-123270)
 
 <p align="center"><img src="assets/banner.svg" width="880" alt="CVE-2026-123270: Redpanda Connect unauthenticated streams-mode RCE"></p>
 
-Advisory and proof-of-concept exploit for CVE-2026-123270, an unauthenticated remote code execution vulnerability in the Redpanda Connect (formerly Benthos) streams-mode management API.
+Advisory and proof-of-concept exploit for [CVE-2026-123270](https://www.cve.org/CVERecord?id=CVE-2026-123270), an unauthenticated remote code execution vulnerability in the Redpanda Connect (formerly Benthos) streams-mode management API.
 
 Coordinated through CERT/CC; tracked as CVE-2026-123270.
 
